@@ -1,6 +1,6 @@
-/*ziye羊羊早安打卡
+/!ziye羊羊早安打卡
 
-非常重要！！！   
+非常重要！！！!  
 
 微信扫码  https://raw.githubusercontent.com/ziye12/JavaScript/master/yyzadkziye.png 进入小程序，登录获取授权，再启动软件获取ck 
 建议设置6点到23点之间打卡，时间间隔30分钟以上,否则容易封号
@@ -81,7 +81,7 @@ const dkurlkey = 'yyzadkurl'+jbid
 const dkurl = sy.getdata(dkurlkey)
 
 
-let isGetCookie = typeof $request !== 'undefined'
+let isGetCookie = typeof $request #== 'undefined'
 if (isGetCookie) {
    GetCookie()
 } else {
@@ -336,3 +336,4 @@ function init() {
   }
   return { isSurge, isQuanX, msg, log, getdata, setdata, get, post, done }
 }
+ 
